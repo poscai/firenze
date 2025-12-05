@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Firenze Di Parma</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
+      <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="container col-12">
+      <header>
+         <div>
+            <img src="images/logo-firenze.svg" width="272" class="img-fluid pos logo" alt="Logo Firenze Di Parma">
+         </div>
+
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#sobre">sobre</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#produtos">produtos</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#contato">contato</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="images/banner01.png" class="d-block w-100" alt="Café da manhã">
+            </div>
+            <div class="carousel-item">
+               <img src="images/banner02.png" class="d-block w-100" alt="Frutos do mar">
+            </div>
+            <div class="carousel-item">
+               <img src="images/banner03.png" class="d-block w-100" alt="Comida Oriental">
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+
+      <section class="section-01 pos" id="produtos">
+         <img src="images/Foto_01.png" class="img-fluid esp" alt="">
+         <img src="images/Foto_02.png" class="img-fluid esp" alt="">
+         <img src="images/Foto_03.png" class="img-fluid esp" alt="">
+         <img src="images/Foto_04.png" class="img-fluid esp" alt="">
+      </section>
+
+      <section class="section-02 pos" id="sobre">
+         <div class="pos">
+            <img src="images/Foto_Forenze.png" width="410" class="img-fluid" height="auto" alt="">
+         </div>
+
+         <div class="pos col">
+            <h1><span class="quasebranco">Firenze</span> <span class="dourado">Di Parma</span></h1>
+            <p class="quasebranco">O Firenze Di Parma nasceu da paixão do chef florentino <strong>Alessandro
+                  Bertolucci</strong> por unir
+               duas tradições
+               italianas lendárias: a elegância culinária de <strong>Florença</strong> e a precisão dos sabores de
+               <strong>Parma</strong>. Inspirado por anos
+               de viagens e estudos pelas cozinhas clássicas da Itália, Alessandro criou um espaço onde arte, técnica e
+               ingredientes nobres se encontram.
+            </p><br>
+            <p class="quasebranco">Aqui, cada prato celebra a essência da gastronomia italiana com um toque
+               contemporâneo,
+               enquanto nossa adega
+               selecionada harmoniza a experiência de forma impecável.</p><br>
+            <p class="quasebranco">O Firenze Di Parma existe para transformar cada refeição em um momento memorável.</p>
+            <p class="quasebranco"><strong>Bem-vindo ao encontro perfeito entre tradição e sofisticação.</strong></p>
+            <br>
+         </div>
+      </section>
+
+      <section class="section-03 pos" id="contato">
+         <!-- <button type="button" class="marrom1">Faça sua reserva</button> -->
+
+         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Faça sua reserva</button>
+           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Faça sua reserva</h5>
+                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                     <form>
+                        <div class="mb-3">
+                           <label for="recipient-name" class="col-form-label">E-mail:</label>
+                           <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                           <label for="message-text" class="col-form-label">Mensagem:</label>
+                           <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                     <button type="button" class="btn btn-primary">Enviar Mensagem</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+      </section>
+
+      <footer class="pos">
+         <p class="marrom1 center">© 2025 Firenze Di Parma - Todos os direitos reservados</p>
+      </footer>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
